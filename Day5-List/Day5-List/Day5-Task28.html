@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Website</title>
+
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav > ul > li {
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav li {
+            position: relative;
+        }
+
+        nav li ul {
+            display: none;
+            position: absolute;
+        }
+
+        nav li:hover > ul {
+            display: block;
+        }
+
+        nav li ul li {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Company Website</h1>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="services.html">Services</a>
+            <ul>
+                <li><a href="web.html">Web Development</a></li>
+                <li><a href="app.html">App Development</a></li>
+                <li><a href="testing.html">Software Testing</a></li>
+            </ul>
+        </li>
+
+        <li><a href="products.html">Products</a>
+            <ul>
+                <li><a href="product-a.html">Product A</a></li>
+                <li><a href="product-b.html">Product B</a></li>
+                <li><a href="product-c.html">Product C</a></li>
+            </ul>
+        </li>
+
+        <li><a href="careers.html">Careers</a>
+            <ul>
+                <li><a href="jobs.html">Job Openings</a></li>
+                <li><a href="internship.html">Internship</a></li>
+            </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
