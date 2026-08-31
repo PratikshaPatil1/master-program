@@ -1,0 +1,122 @@
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="/register" method="post">
+
+    <label for="name">Full Name:</label>
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Enter your full name"
+           required>
+
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email"
+           id="email"
+           name="email"
+           placeholder="Enter your email"
+           required>
+
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password"
+           id="password"
+           name="password"
+           placeholder="Enter password"
+           required>
+
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number"
+           id="age"
+           name="age"
+           min="18"
+           max="60">
+
+    <br><br>
+
+    <p>Gender:</p>
+
+    <input type="radio"
+           id="male"
+           name="gender"
+           value="Male">
+
+    <label for="male">Male</label>
+
+    <input type="radio"
+           id="female"
+           name="gender"
+           value="Female">
+
+    <label for="female">Female</label>
+
+    <br><br>
+
+    <p>Select Skills:</p>
+
+    <input type="checkbox"
+           id="html"
+           name="skills"
+           value="HTML">
+
+    <label for="html">HTML</label>
+
+    <input type="checkbox"
+           id="css"
+           name="skills"
+           value="CSS">
+
+    <label for="css">CSS</label>
+
+    <input type="checkbox"
+           id="java"
+           name="skills"
+           value="Java">
+
+    <label for="java">Java</label>
+
+    <br><br>
+
+    <label for="course">Select Course:</label>
+
+    <select id="course" name="course">
+
+        <option value="">--Select Course--</option>
+        <option value="java">Java Full Stack</option>
+        <option value="python">Python Full Stack</option>
+        <option value="testing">Software Testing</option>
+
+    </select>
+
+    <br><br>
+
+    <label for="address">Address:</label>
+    <br>
+
+    <textarea id="address"
+              name="address"
+              rows="5"
+              cols="40"
+              placeholder="Enter your address"></textarea>
+
+    <br><br>
+
+    <button type="submit">Register</button>
+
+    <button type="reset">Clear</button>
+
+</form>
+
+</body>
+</html>
