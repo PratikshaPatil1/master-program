@@ -1,0 +1,64 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+    <h1>Course Enrollment Form</h1>
+
+    <form>
+
+        <label>Student Name:</label>
+        <input type="text" name="studentname"
+               placeholder="Enter student name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email" required>
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number" required>
+        <br><br>
+
+        <label>Select Course:</label>
+        <select name="course">
+            <option value="">-- Select Course --</option>
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="Python Full Stack">Python Full Stack</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+        </select>
+        <br><br>
+
+        <label>Learning Mode:</label>
+        <br>
+        <input type="radio" name="mode" value="Online"> Online
+        <input type="radio" name="mode" value="Offline"> Offline
+        <input type="radio" name="mode" value="Hybrid"> Hybrid
+        <br><br>
+
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <input type="checkbox" name="skills" value="Java"> Java
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+                  placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

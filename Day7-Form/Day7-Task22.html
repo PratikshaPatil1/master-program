@@ -1,0 +1,73 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Registration Form</title>
+</head>
+<body>
+
+    <h1>Customer Complaint Form</h1>
+
+    <form>
+
+        <label>Customer Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter customer name" required>
+        <br><br>
+
+        <label>Customer ID:</label>
+        <input type="text" name="customerid"
+               placeholder="Enter customer ID">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email">
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number">
+        <br><br>
+
+        <label>Complaint Category:</label>
+        <select name="category">
+            <option>-- Select Category --</option>
+            <option>Product</option>
+            <option>Delivery</option>
+            <option>Payment</option>
+            <option>Service</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label>Priority:</label>
+        <select name="priority">
+            <option>-- Select Priority --</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Urgent</option>
+        </select>
+        <br><br>
+
+        <label>Complaint Description:</label>
+        <br>
+        <textarea name="description" rows="6" cols="40"
+                  placeholder="Describe your complaint"></textarea>
+        <br><br>
+
+        <label>Preferred Contact Method:</label>
+        <br>
+        <input type="radio" name="contact" value="Email"> Email
+        <input type="radio" name="contact" value="Phone"> Phone
+        <input type="radio" name="contact" value="SMS"> SMS
+        <br><br>
+
+        <input type="submit" value="Submit Complaint">
+
+    </form>
+
+</body>
+</html>
+```

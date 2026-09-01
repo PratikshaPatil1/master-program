@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form>
+
+        <label>Participant Name:</label>
+        <input type="text" name="participant"
+               placeholder="Enter participant name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email">
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number">
+        <br><br>
+
+        <label>Event Type:</label>
+        <select name="event">
+            <option>-- Select Event --</option>
+            <option>Workshop</option>
+            <option>Seminar</option>
+            <option>Conference</option>
+            <option>Competition</option>
+        </select>
+        <br><br>
+
+        <label>Date:</label>
+        <input type="date" name="date">
+        <br><br>
+
+        <label>Number of Participants:</label>
+        <input type="number" name="participants"
+               placeholder="Number of participants">
+        <br><br>
+
+        <label>Participation Type:</label>
+        <br>
+        <input type="radio" name="type" value="Individual">
+        Individual
+        <input type="radio" name="type" value="Team">
+        Team
+        <br><br>
+
+        <label>Requirements:</label>
+        <br>
+        <textarea name="requirements" rows="5" cols="40"
+                  placeholder="Enter your requirements"></textarea>
+        <br><br>
+
+        <input type="checkbox" name="terms" required>
+        <label>I agree to the Terms & Conditions</label>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>

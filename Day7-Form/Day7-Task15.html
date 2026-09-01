@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking Form</title>
+</head>
+<body>
+
+    <h1>Hotel Booking Form</h1>
+
+    <form>
+
+        <label>Guest Name:</label>
+        <input type="text" name="guestname"
+               placeholder="Enter guest name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email">
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number">
+        <br><br>
+
+        <label>Check-in Date:</label>
+        <input type="date" name="checkin">
+        <br><br>
+
+        <label>Check-out Date:</label>
+        <input type="date" name="checkout">
+        <br><br>
+
+        <label>Number of Guests:</label>
+        <input type="number" name="guests"
+               placeholder="Number of guests">
+        <br><br>
+
+        <label>Room Type:</label>
+        <select name="room">
+            <option>-- Select Room --</option>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Deluxe Room</option>
+            <option>Suite</option>
+        </select>
+        <br><br>
+
+        <label>Meal Preference:</label>
+        <select name="meal">
+            <option>-- Select Meal --</option>
+            <option>Breakfast</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+            <option>All Meals</option>
+        </select>
+        <br><br>
+
+        <label>Special Requests:</label>
+        <br>
+        <textarea name="requests" rows="5" cols="40"
+                  placeholder="Enter special requests"></textarea>
+        <br><br>
+
+        <input type="submit" value="Book Now">
+
+    </form>
+
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Leave Application</title>
+</head>
+<body>
+
+    <h1>Employee Leave Application</h1>
+
+    <form>
+
+        <label>Employee ID:</label>
+        <input type="text" name="employeeid"
+               placeholder="Enter employee ID" required>
+        <br><br>
+
+        <label>Employee Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter employee name">
+        <br><br>
+
+        <label>Department:</label>
+        <input type="text" name="department"
+               placeholder="Enter department">
+        <br><br>
+
+        <label>Leave Type:</label>
+        <br>
+        <input type="radio" name="leave" value="Casual"> Casual
+        <input type="radio" name="leave" value="Sick"> Sick
+        <input type="radio" name="leave" value="Paid"> Paid
+        <br><br>
+
+        <label>From Date:</label>
+        <input type="date" name="fromdate">
+        <br><br>
+
+        <label>To Date:</label>
+        <input type="date" name="todate">
+        <br><br>
+
+        <label>Reason:</label>
+        <br>
+        <textarea name="reason" rows="5" cols="40"
+                  placeholder="Enter reason for leave"></textarea>
+        <br><br>
+
+        <label>Manager Name:</label>
+        <input type="text" name="manager"
+               placeholder="Enter manager name">
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
+

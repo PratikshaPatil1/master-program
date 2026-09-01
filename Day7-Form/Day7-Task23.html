@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Support Ticket Form</title>
+</head>
+<body>
+
+    <h1>IT Support Ticket Form</h1>
+
+    <form>
+
+        <label>Employee Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter employee name" required>
+        <br><br>
+
+        <label>Employee ID:</label>
+        <input type="text" name="employeeid"
+               placeholder="Enter employee ID">
+        <br><br>
+
+        <label>Department:</label>
+        <input type="text" name="department"
+               placeholder="Enter department">
+        <br><br>
+
+        <label>Issue Category:</label>
+        <select name="category">
+            <option>-- Select Category --</option>
+            <option>Hardware</option>
+            <option>Software</option>
+            <option>Network</option>
+            <option>Email</option>
+            <option>Login</option>
+            <option>Printer</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label>Priority:</label>
+        <select name="priority">
+            <option>-- Select Priority --</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+        </select>
+        <br><br>
+
+        <label>Device Type:</label>
+        <select name="device">
+            <option>-- Select Device --</option>
+            <option>Laptop</option>
+            <option>Desktop</option>
+            <option>Mobile</option>
+            <option>Printer</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label>Issue Description:</label>
+        <br>
+        <textarea name="description" rows="6" cols="40"
+                  placeholder="Describe the issue"></textarea>
+        <br><br>
+
+        <label>Contact Number:</label>
+        <input type="tel" name="contact"
+               placeholder="Enter contact number">
+        <br><br>
+
+        <input type="submit" value="Submit Ticket">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" placeholder="Enter mobile number" required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Enter your age">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Course:</label>
+         <select>="course">
+            <option value="">-- Select Course --</option>
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="Python">Python</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+            </select>
+        
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+                  placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <input type="checkbox" name="skills" value="Java"> Java
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

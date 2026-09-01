@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Form</title>
+</head>
+<body>
+
+    <h1>Shopping Website Checkout</h1>
+
+    <form>
+
+        <label>Customer Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter customer name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email" required>
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number">
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+                  placeholder="Enter address"></textarea>
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city" placeholder="Enter city">
+        <br><br>
+
+        <label>State:</label>
+        <input type="text" name="state" placeholder="Enter state">
+        <br><br>
+
+        <label>Pincode:</label>
+        <input type="text" name="pincode" placeholder="Enter pincode">
+        <br><br>
+
+        <label>Payment Method:</label>
+        <br>
+        <input type="radio" name="payment" value="Credit Card">
+        Credit Card
+        <br>
+        <input type="radio" name="payment" value="Debit Card">
+        Debit Card
+        <br>
+        <input type="radio" name="payment" value="UPI">
+        UPI
+        <br>
+        <input type="radio" name="payment" value="Cash on Delivery">
+        Cash on Delivery
+        <br><br>
+
+        <input type="submit" value="Place Order">
+
+    </form>
+
+</body>
+</html>

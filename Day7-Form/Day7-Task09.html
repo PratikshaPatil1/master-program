@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Account Opening Form</title>
+</head>
+<body>
+
+    <h1>Bank Account Opening Form</h1>
+
+    <form>
+
+        <label>Applicant Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter applicant name" required>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Account Type:</label>
+        <br>
+        <input type="radio" name="account" value="Savings">
+        Savings
+        <br>
+        <input type="radio" name="account" value="Current">
+        Current
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email" required>
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+                  placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city"
+               placeholder="Enter city">
+        <br><br>
+
+        <label>State:</label>
+        <select name="state">
+            <option value="">-- Select State --</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Goa">Goa</option>
+        </select>
+        <br><br>
+
+        <label>Occupation:</label>
+        <input type="text" name="occupation"
+               placeholder="Enter occupation">
+        <br><br>
+
+        <label>PAN Number:</label>
+        <input type="text" name="pan"
+               placeholder="Enter PAN number">
+        <br><br>
+
+        <input type="checkbox" name="terms" required>
+        <label>I agree to the Terms & Conditions</label>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Table Booking</title>
+</head>
+<body>
+
+    <h1>Restaurant Table Booking Form</h1>
+
+    <form>
+
+        <label>Customer Name:</label>
+        <input type="text" name="name"
+               placeholder="Enter customer name" required>
+        <br><br>
+
+        <label>Mobile:</label>
+        <input type="tel" name="mobile"
+               placeholder="Enter mobile number">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="Enter email">
+        <br><br>
+
+        <label>Date:</label>
+        <input type="date" name="date">
+        <br><br>
+
+        <label>Time:</label>
+        <input type="time" name="time">
+        <br><br>
+
+        <label>Number of Guests:</label>
+        <input type="number" name="guests"
+               placeholder="Number of guests">
+        <br><br>
+
+        <label>Seating Preference:</label>
+        <select name="seating">
+            <option>-- Select Seating --</option>
+            <option>Indoor</option>
+            <option>Outdoor</option>
+            <option>Window Seat</option>
+            <option>Private Table</option>
+        </select>
+        <br><br>
+
+        <label>Special Request:</label>
+        <br>
+        <textarea name="request" rows="5" cols="40"
+                  placeholder="Enter special request"></textarea>
+        <br><br>
+
+        <input type="submit" value="Reserve Table">
+
+    </form>
+
+</body>
+</html>

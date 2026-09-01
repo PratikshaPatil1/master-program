@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking Form</title>
+</head>
+<body>
+
+    <h1>Travel Booking Form</h1>
+
+    <form>
+
+        <label>Passenger Name:</label>
+        <input type="text" name="passenger"
+               placeholder="Enter passenger name" required>
+        <br><br>
+
+        <label>From:</label>
+        <input type="text" name="from"
+               placeholder="Enter starting location">
+        <br><br>
+
+        <label>To:</label>
+        <input type="text" name="to"
+               placeholder="Enter destination">
+        <br><br>
+
+        <label>Journey Date:</label>
+        <input type="date" name="journeydate">
+        <br><br>
+
+        <label>Number of Passengers:</label>
+        <input type="number" name="passengers"
+               placeholder="Number of passengers">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Seat Preference:</label>
+        <select name="seat">
+            <option>-- Select Seat --</option>
+            <option>Window</option>
+            <option>Aisle</option>
+            <option>Middle</option>
+        </select>
+        <br><br>
+
+        <label>Travel Class:</label>
+        <select name="class">
+            <option>-- Select Class --</option>
+            <option>Economy</option>
+            <option>Business</option>
+            <option>First Class</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+
